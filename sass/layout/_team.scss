@@ -1,0 +1,49 @@
+.section-team {
+  background-color: var(--photo-background-color);
+}
+
+.staff-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.staff-gallery__item {
+  flex-basis: calc((100% - 90px) / 4);
+  max-width: 270px;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  background-color: var(--primary-background-color);
+}
+
+.staff-gallery__item-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.staff-gallery__staff-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.staff-gallery__staff-position {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 16px;
+}

@@ -1,0 +1,22 @@
+.social-link {
+  @extend %align;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+  fill: currentColor;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: var(--primary-background-color);
+    background-color: var(--accent-color);
+  }
+}
+
+.social-link--fill {
+  color: var(--primary-background-color);
+  fill: currentColor;
+  background-color: rgba(255, 255, 255, 0.1);
+}

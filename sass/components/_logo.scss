@@ -1,0 +1,18 @@
+.logo {
+    color: var(--logo-text-color);
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo--blue {
+    color: var(--accent-color);
+}
+
+.logo--white {
+    color: var(--primary-background-color);
+    display: inline-block;
+    margin-bottom: 20px;
+}
