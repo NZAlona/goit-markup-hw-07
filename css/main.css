@@ -11,7 +11,7 @@
   --hero-bcg-color: #c4c4c4;
 }
 
-.section-clients, .services-list__meta, .benefits-icon, .terms-conditions, .close-btn, .social-link, .button-base--resize {
+.section-clients, .services-list__meta, .benefits-icon, .terms-conditions, .close-btn, .social-link, .button-base {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -81,14 +81,12 @@ img {
 }
 
 .button-base {
-  display: inline-block;
   color: var(--primary-background-color);
   background-color: var(--accent-color);
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   border: transparent;
@@ -429,6 +427,7 @@ img {
 }
 
 .section-hero__hero-button {
+  margin: 0 auto;
   padding: 10px 32px;
   min-width: 216px;
 }
@@ -556,14 +555,14 @@ img {
   flex-basis: calc((100% - 150px) / 6);
   max-width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
 }
 
 .clients-icon {
   display: inline-flex;
   width: 100%;
   height: 100%;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   justify-content: center;
   align-items: center;
   color: #afb1b8;
@@ -572,6 +571,7 @@ img {
 }
 .clients-icon:hover, .clients-icon:focus {
   fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 .footer {
